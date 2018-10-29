@@ -1,0 +1,47 @@
+@import 'reset.css';
+
+BODY {
+    font-family: 'Open Sans', 'Helvetica Neue', 'Verdana', sans-serif;
+    background-color: #452EAD;
+}
+
+H1 {
+    font-size: 8em;
+}
+
+
+.main {
+    text-align: center;
+    color: white;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header,
+.container,
+.footer {
+    align-self: stretch;
+}
+
+.memo {
+    margin-top: 20px;
+}
+
+.but {
+    background-color: #E860A8;
+    color: white;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+}
+
+.but:hover {
+    opacity: 0.9;
+}
