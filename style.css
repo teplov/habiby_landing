@@ -7,8 +7,13 @@ BODY {
 
 H1 {
     font-size: 8em;
+    letter-spacing: -6px;
+    font-weight: 300;
 }
 
+H1 B {
+    font-weight: 600;
+}
 
 .main {
     text-align: center;
@@ -26,7 +31,7 @@ H1 {
 }
 
 .memo {
-    margin-top: 20px;
+    margin: 40px 0 20px 0;
 }
 
 .but {
